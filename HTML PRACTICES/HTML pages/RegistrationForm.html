@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register Here</title>
+		<style>
+			table{
+			border-style: outset;
+			border-bottom-color:black;
+			border-right-color:black;
+			border-top-color:grey;
+			border-left-color:grey;
+			}
+			thead{
+			background-color: #F7F373;
+			font-size: 30px;
+			color: red;
+			}
+			tbody,tfoot{
+			background-color : #19B8CE;
+			}
+			th,td{
+			border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<table  cellspacing='5' width=30%>
+				<thead>
+					<th colspan='2'>Registration Form</th>
+				</thead>
+				<tbody >
+					<tr>
+						<td align="center">Enter Name</td>
+						<td style="padding-left:7px"><input type="text" value=""/></td>
+					</tr>
+					<tr>
+						<td align="center">Enter Password</td>
+						<td style="padding-left:7px"><input type="password" value=""/></td>
+					</tr>
+					<tr>
+						<td align="center">Enter Address</td>
+						<td style="padding-left:7px"><textarea rows="4" cols="21"></textarea></td>
+					</tr>
+					<tr>
+						<td align="center">Select Game</td>
+						<td style="padding-left:7px">
+							<input type="checkbox" name="Games1" value="hockey">Hockey</input><br/>
+							<input type="checkbox" name="Games2" value="football">Football</input><br/>
+							<input type="checkbox" name="Games3" value="badminton">Badminton</input><br/>
+							<input type="checkbox" name="Games4" value="cricket">Cricket</input><br/>
+							<input type="checkbox" name="Games5" value="volleyball">volleyball</input>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">Gender</td>
+						<td style="padding-left:7px">
+							<input type="radio" name="gender" value="Male"> Male</input>
+							<input type="radio" name="gender" value="Female"> Female</input>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">Select ur age</td>
+						<td style="padding-left:7px">
+							<select name="age">
+								<option>Select</option>
+								<option>below 18</option>
+								<option>18</option>
+								<option>19</option>
+								<option>20</option>
+								<option>21</option>
+								<option>22</option>
+								<option>23</option>
+								<option>24</option>
+								<option>25</option>
+								<option>26</option>
+								<option>27</option>
+								<option>28</option>
+								<option>29</option>
+								<option>30</option>
+								<option>above 30</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">select Photo</td>
+						<td style="padding-left:7px"><input type="file" value="No file chosen"/></td>
+					</tr>
+				</tbody>
+				<tfoot cellspacing='10'>
+					<tr>
+						<td colspan='2' align="center" style="padding: 5px" cellspacing='5'>
+							<input type="button" value="Click Me" style="padding: 10px 30px"/>
+							<input type="reset" value="Reset" style="padding: 10px 30px"/>
+							<input type="submit" value="Submit Form" style="padding: 10px 20px"/>
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</form>
+	</body>
+</html>
